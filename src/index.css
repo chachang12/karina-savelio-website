@@ -12,6 +12,7 @@
 body {
   background-color: #e1e1e1;
 }
+
 .red-glow {
   box-shadow: 0 0 10px red;
   border-radius: 50%;
@@ -30,4 +31,3 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;  /* Safari and Chrome */
 }
-
