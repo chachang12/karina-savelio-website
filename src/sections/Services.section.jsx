@@ -15,7 +15,7 @@ const Services = () => {
           Business Services
         </span>
       </div>
-      <div className='flex gap-4 justify-center flex-wrap'>
+      <div className='flex flex-wrap gap-4 justify-center'>
         {businessServices.map((service, idx) => (
           <ServicesCard key={idx} service={service} index={idx} />
         ))}
@@ -27,7 +27,7 @@ const Services = () => {
           Personal Services
         </span>
       </div>
-      <div className='flex gap-4 justify-center flex-wrap'>
+      <div className='flex flex-wrap gap-4 justify-center'>
         {personalServices.map((service, idx) => (
           <ServicesCard key={idx} service={service} index={idx} />
         ))}

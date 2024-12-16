@@ -14,25 +14,27 @@ function App() {
         <section className='p-4'>
           <Navbar />  
         </section>
-        <div className='py-10 rounded-b-xl'>
+        <div id="hero" className='py-10 rounded-b-xl'>
           <Hero />
         </div>
         
-        <div className='flex justify-center'>
+        <div id="resource-bar" className='flex justify-center'>
           <ResourceBar />
         </div>
 
-        <About />
-        
-        {/* <hr className="border-t border-gray-300 my-4 w-4/5 mx-auto" /> */}
-        <section className='mb-10'>
+        <section id="about" className='mb-10'>
+          <About />
+        </section>
+
+        <section id="services" className='mb-10'>
           <Services />
         </section>
-        
 
-        <hr className="border-t border-gray-300 my-4 w-4/5 mx-auto" />
+        <hr className="border-t border-gray-300 my-4 w-full mx-auto" />
 
-        <Testimonials />
+        <section id="testimonials" className='mb-10'>
+          <Testimonials />
+        </section>
 
         <Footer />
       </div>

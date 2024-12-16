@@ -20,8 +20,6 @@ const Footer = () => {
       </div>
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center mt-4">
         <p className="text-sm">&copy; {new Date().getFullYear()} Karina Savelio. All rights reserved.</p>
-        <p>Email: ksavelio@southern.edu</p>
-          <p>Phone: +1 423-236-2330</p>
         <span className="text-sm">Woman and Latina Owned</span>
       </div>
     </footer>
